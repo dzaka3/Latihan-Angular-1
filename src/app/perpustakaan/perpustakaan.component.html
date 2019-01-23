@@ -1,0 +1,7 @@
+<app-tambah [tambahList]=tambahList
+(dataAdded)="onDataAdded($event)">
+</app-tambah>
+
+<app-hapus [perpusParent]=hapusList
+(dariChildKeParent)="onDataDelete($event)">
+</app-hapus>
